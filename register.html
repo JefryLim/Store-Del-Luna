@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Del Luna</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+    <div class="Header">
+        <div class="HeaderLeft">
+            <img src="Asset/logo.png" alt="">
+        </div>
+        <div class="HeaderRight">
+            <div class="HR_register">
+                <a href="register.html">
+                    REGISTER
+                </a>
+            </div>
+            <li class="HR_nav">
+                <img src="Asset/NavBar.png" alt="">
+                <ul class="HR_nav-item">
+                    <a href="home.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="albums.html">
+                        <li>Albums</li>
+                    </a>
+                    <a href="Merchandises.html">
+                        <li>Merchandises</li>
+                    </a>
+                    <a href="Testimonial.html">
+                        <li>Testimonial</li>
+                    </a>
+                </ul>
+            </li>
+        </div>
+    </div>
+    <div class="ContentRegister">
+        <h1>Registration Form</h1>
+        <form action="">
+            <div class = "form-content">
+                <label for="">Username</label>
+                <input type="text" id="usernametxt">
+            </div>
+            <div class = "form-content">
+                <label for="">Password</label>
+                <input type="password" id="passwordtxt">
+            </div>
+            <div class = "form-content">
+                <label for="">Confirmation Password</label>
+                <input type="password" id="confirmationpasswordtxt">
+            </div>
+            <div class = "form-content">
+                <label for="">Full Name</label>
+                <input type="text" id="nametxt">
+            </div>
+
+            <div class = "form-contentgen">
+                <label for="">Gender</label>
+                <div class="gen">
+                    <input type="radio" name="genderdf" id="malerb" value="Male">Male
+                    <input type="radio" name="genderdf" id="femalerb" value="Female">Female
+                </div>
+            </div>
+
+            <div class = "form-content">
+                <label for="">Email</label>
+                <input type="email" id="emailtxt">
+            </div>
+            <div class = "form-content">
+                <label for="">Age</label>
+                <input type="number" id="agetxt">
+            </div>
+
+            <div class = "form-contentbox">
+                <input type="checkbox" name="" id="agreecb">- I agree with Terms & Conditions
+            </div>
+
+            <button onclick="getData()">SUBMIT</button>
+        </form>
+    </div>
+    <div class="Footer">
+        <div class="FooterLeft">
+            Copyright @2021
+        </div>
+        <div class="FooterRight">
+            <a href="https://www.facebook.com/">
+                <img src="Asset/Facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="Asset/Youtube.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="Asset/Instagram.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

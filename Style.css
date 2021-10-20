@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Home */
+.Header .HeaderLeft img{
+    width: 200px;
+}
+.Header .HeaderRight .HR_nav img{
+    width: 60px;
+}
+.HR_register a{
+    text-decoration: none;
+    color: white;
+}
+.Header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+.HeaderRight{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+.HR_nav li{
+    list-style: none;
+    border: 1px solid white;
+}
+.HR_nav{
+    float: left;
+    text-align: center;
+}
+.HR_nav-item{
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    margin-left: -65px;
+    display: none;
+}
+.HR_nav:hover .HR_nav-item{
+    display: block;
+}
+.HR_nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.HR_nav-item li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid black;
+}
+.HR_nav-item li:hover{
+    background-color: gray;
+}
+
+.ContentTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slider{
+    width: 1200px;
+    overflow: hidden;
+}
+#slider .slides{
+    display: block;
+    width: 3600px;
+}
+#slider .slides .slide{
+    list-style-type: none;
+    float: left;
+}
+#slider .slides .slide img{
+    width: 1200px;
+    height: 600px;
+}
+.ContentMid h1{
+    margin-top: 2vh;
+}
+.ContentMid{
+    background-color: black;
+    color: white;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CBtitle h1{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.ContentBot{
+    margin-top: 2vh;
+}
+.CBbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+}
+#Box1{
+    width: 60vh;
+    height: 60vh;
+    background-image: url("Asset/bts_logo.jpg");
+    background-size: cover;
+}
+#Box2{
+    width: 80vh;
+    height: 60vh;
+    background-image: url("Asset/blackpink_logo.jpg");
+    background-size: cover;
+}
+#Box3{
+    width: 60vh;
+    height: 60vh;
+    background-image: url("Asset/exo_logo.jpg");
+    background-size: cover;
+}
+#Box1:hover{
+    background-image: url("Asset/bts_merchandises1.jpg");
+}
+#Box2:hover{
+    background-image: url("Asset/blackpink_merchandises1.png");
+}
+#Box3:hover{
+    background-image: url("Asset/exo_album1.jpg");
+}
+
+.FooterLeft{
+     color: white;
+}
+.Footer .FooterRight img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.Footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.FooterLeft{
+    margin-left: 10px;
+}
+.FooterRight{
+    margin-right: 10px;
+    justify-content: space-evenly;
+}
+
+/* Album & Merchandises */
+.ContentAlbums h1{
+    text-align: center;
+}
+.CA1BOX{
+    padding-block: 1vh;
+    padding-left: 5vh;
+    background-color: gray;
+}
+.CA1B1 img{
+    width: 200px;
+    height: 200px;
+}
+.CA1B1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+.CA1B2 img{
+    width: 200px;
+    height: 200px;
+}
+.CA1B2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+.CA1B3 img{
+    width: 200px;
+    height: 200px;
+}
+.CA1B3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+
+.CA2BOX{
+    padding-block: 1vh;
+    padding-left: 5vh;
+    background-color: gray;
+}
+.CA2B1 img{
+    width: 200px;
+    height: 200px;
+}
+.CA2B1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+.CA2B2 img{
+    width: 200px;
+    height: 200px;
+}
+.CA2B2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+.CA2B3 img{
+    width: 200px;
+    height: 200px;
+}
+.CA2B3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+
+.CA3BOX{
+    padding-block: 1vh;
+    padding-left: 5vh;
+    background-color: gray;
+}
+.CA3B1 img{
+    width: 200px;
+    height: 200px;
+}
+.CA3B1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+.CA3B2 img{
+    width: 200px;
+    height: 200px;
+}
+.CA3B2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+.CA3B3 img{
+    width: 200px;
+    height: 200px;
+}
+.CA3B3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2vh;
+}
+
+/* Testimonial */
+.testimonial1 img{
+    width: 200px;
+    height: 200px;
+}
+.testimonial2 img{
+    width: 200px;
+    height: 200px;
+}
+.testimonial3 img{
+    width: 200px;
+    height: 200px;
+}
+.dev1 img{
+    width: 100px;
+    height: 30px;
+}
+.dev2 img{
+    width: 100px;
+    height: 30px;
+}
+.dev3 img{
+    width: 100px;
+    height: 30px;
+}
+.ContentTestimonial{
+    margin-left: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.testimonial1{
+    display: flex;
+    margin-bottom: 1vh;
+    justify-content: space-evenly;
+}
+.dev1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.testimonial2{
+    display: flex;
+    margin-bottom: 1vh;
+    justify-content: space-evenly;
+}
+.dev2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.testimonial3{
+    display: flex;
+    margin-bottom: 1vh;
+    justify-content: space-evenly;
+}
+.dev3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* Register */
+.ContentRegister h1{
+    text-align: center;
+}
+.ContentRegister{
+    background-color: floralwhite;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-content input,select{
+    width : 300px;
+    padding: 10px 15px;
+    border : none;
+    border-bottom: solid 1px gray;
+}
+.form-content{
+    width: 500px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1vh;
+}
+.form-contentgen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contentbox{
+    display: flex;
+    align-items: center;
+    margin-block: 1vh;
+}
+
+@media screen and (max-width: 600px){
+    #slider{
+        width: 600px;
+    }
+    #slider .slides{
+        width: 1800px;
+    }
+    #slider .slides .slide img{
+        width: 600px;
+        height: 300px;
+    }
+    .ContentMid h1{
+        font-size: 20px;
+    }
+    .ContentMid{
+        width: 600px;
+    }
+    .ContentMid pre{
+        font-size: 12px;
+    }
+    .CBtitle h1{
+        font-size: 20px;
+    }
+    #Box1{
+        width: 28vh;
+        height: 28vh;
+    }
+    #Box2{
+        width: 38vh;
+        height: 28vh;
+    }
+    #Box3{
+        width: 28vh;
+        height: 28vh;
+    }
+    .ContentAlbums h1{
+        font-size: 20px;
+    }
+    .CA1B1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA1B2 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA1B3 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA2B1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA2B2 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA2B3 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA3B1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA3B2 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA3B3 img{
+        width: 150px;
+        height: 150px;
+    }
+    .CA1BOX{
+        padding-left: 1vh;
+    }
+    .CA2BOX{
+        padding-left: 1vh;
+    }
+    .CA3BOX{
+        padding-left: 1vh;
+    }
+}
